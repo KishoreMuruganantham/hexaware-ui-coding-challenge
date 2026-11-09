@@ -7,7 +7,8 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
 
   // Store is registered for this App
-  <BrowserRouter >
+  // basename is needed only when hosted under a sub path (GitHub Pages)
+  <BrowserRouter basename={import.meta.env.DEV ? "/" : "/object-dashboard"}>
     <Provider store={store}>
       <App />
     </Provider>
