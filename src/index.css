@@ -1,0 +1,64 @@
+/* Hexaware color palette */
+:root {
+  --hexaware-blue: #3C2CDA;
+  --black: #040D43;
+  --silver: #8088A7;
+  --light: #EEEFF2;
+  --white: #F8F8F9;
+  --border-light: #CBD0E5;
+  --error: #DA2D2C;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.navbar.bg-body-tertiary {
+  background-color: var(--white) !important;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.navbar-brand {
+  color: var(--hexaware-blue) !important;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--hexaware-blue);
+  border-color: var(--hexaware-blue);
+}
+
+.btn-danger {
+  background-color: var(--error);
+  border-color: var(--error);
+}
+
+.card {
+  border: 1px solid var(--border-light);
+}
+
+.card-header {
+  background-color: var(--light);
+  color: var(--black);
+  font-weight: 600;
+}
+
+.card-footer {
+  background-color: var(--white);
+}
+
+.pagination .page-link {
+  color: var(--hexaware-blue);
+  border-color: var(--border-light);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--hexaware-blue);
+  border-color: var(--hexaware-blue);
+  color: #fff;
+}
+
+nav p {
+  color: var(--silver);
+}

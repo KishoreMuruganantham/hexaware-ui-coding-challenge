@@ -1,0 +1,31 @@
+Create a UI app that having following structure
+
+
+App.jsx
+components
+    |
+     ObjectsDashboard.jsx
+     ObjectList.jsx
+     ObjectAdd.jsx
+
+ObjectDashboard must call following GET API to display 10 objects at a time. Each object goes in a bootstrap card having name, color and price and cpu. Some of object data may also be null so display accordingly. 
+
+GET API: https://api.restful-api.dev/objects
+
+The page must also have option to add the object using following API 
+
+POST API: https://api.restful-api.dev/objects
+Body: {
+   "name": "Google Pixel 9 Pro",
+   "data": {
+      "Year": 2026,
+      "Price": 999.99,
+      "CPU": "Tensor G5"
+   }
+}
+
+Also provide an option to delete the object by calling delete API 
+
+https://api.restful-api.dev/objects/{id}
+
+Please use Bootstrap, ReactRouter where-ever needed. 
