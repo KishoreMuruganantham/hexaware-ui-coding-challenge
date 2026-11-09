@@ -62,3 +62,13 @@ body {
 nav p {
   color: var(--silver);
 }
+
+/* spacing around pagination */
+.pagination {
+  margin-top: 24px;
+  gap: 6px;
+}
+
+.pagination + p {
+  margin-top: 12px;
+}

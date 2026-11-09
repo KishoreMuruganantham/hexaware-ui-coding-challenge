@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router"
 import { useDispatch, useSelector } from "react-redux"
 import { getObjects } from "../store/actions/ObjectAction"
 import ObjectList from "./ObjectList"
@@ -24,12 +23,6 @@ function ObjectsDashboard() {
     }
     return (
         <div>
-            <div className="mb-4 mt-4">
-                <Link to="/add" className="btn btn-primary" >
-                    +Add Object
-                </Link>
-            </div>
-
             <ObjectList list={pagedObjects} />
 
             <nav aria-label="Page navigation example" style={{ "alignContent": 'center' }}>
