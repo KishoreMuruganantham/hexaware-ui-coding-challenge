@@ -10,7 +10,7 @@ const App = () => { //parent component
         <div className="col-lg-12">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-              <Link className="navbar-brand" to="">Objects</Link>
+              <Link className="navbar-brand" to="">Object Dashboard</Link>
 
               <div className="collapse navbar-collapse" >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
